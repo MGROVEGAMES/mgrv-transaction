@@ -2,7 +2,6 @@
     "name": "dex-back",
     "version": "1.0.0",
     "license": "MIT",
-    "type": "module",
     "scripts": {
         "start": "ts-node-esm --transpileOnly ./src/main.ts",
         "start:dev": "nodemon --watch ./src --exec \"yarn start\"  -e ts"
